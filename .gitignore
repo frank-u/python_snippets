@@ -1,5 +1,8 @@
-# Created by .gitignore support plugin (hsz.mobi)
-### Python template
+# virtualenv data
+.env/
+# test files needed for scripts put here:
+_work_data/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
