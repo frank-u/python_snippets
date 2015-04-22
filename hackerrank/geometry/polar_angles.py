@@ -51,8 +51,7 @@ polar angle of 270 degrees.
 
 """
 
-from math import atan2, degrees
-
+from math import atan2, degrees, sqrt
 
 if __name__ == '__main__':
     '''
@@ -77,7 +76,8 @@ if __name__ == '__main__':
         [-83, 11],
         [12, -28],
     ]
-    tests.sort(key=lambda point: ((degrees(atan2(point[1], point[0]))) % 360))
+    tests.sort(key=lambda point: ((degrees(atan2(point[1], point[0]))) % 360,
+                                  sqrt(point[0] ** 2 + point[1] ** 2)))
 
     for i in tests:
         print("{0} {1}".format(i[0], i[1]))
