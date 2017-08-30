@@ -27,12 +27,14 @@ pydub==0.20.0
 Pygments==2.2.0
 pyparsing==2.2.0
 PyPDF2==1.26.0
+PyQt5==5.9
 python-acoustid-api==0.0.2
 python-dateutil==2.6.1
 pytz==2017.2
 requests==2.18.4
 Shapely==1.6.0
 simplegeneric==0.8.1
+sip==4.19.3
 six==1.10.0
 traitlets==4.3.2
 urllib3==1.22

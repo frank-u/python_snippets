@@ -10,6 +10,7 @@ ply>=3.4
 pyacoustid>=1.1.0
 pydub
 PyPDF2>=1.24
+PyQt5
 python-acoustid-api>=0.0.2
 python-dateutil>=2.4.1
 pytz>=2015.2
