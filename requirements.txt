@@ -14,7 +14,7 @@ jedi==0.10.2
 matplotlib==2.0.2
 mpmath==0.19
 mutagen==1.38
-numpy==1.13.1
+numpy==1.22.0
 openpyxl==2.4.8
 pandas==0.20.3
 pexpect==4.2.1
